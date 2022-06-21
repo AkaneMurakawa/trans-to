@@ -1,4 +1,4 @@
-package com.github.transto.api.baidu;
+package transto.api.baidu;
 
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;

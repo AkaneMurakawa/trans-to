@@ -1,4 +1,4 @@
-package com.github.transto.util;
+package transto.util;
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;

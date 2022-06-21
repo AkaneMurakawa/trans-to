@@ -1,4 +1,4 @@
-package com.github.transto.api.youdao;
+package transto.api.youdao;
 
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;

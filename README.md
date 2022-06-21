@@ -9,4 +9,4 @@
 ![demo.png](images/demo2.png)
 
 ## 运行
-`com.github.transto.Application.main`
+`transto.Application.main`

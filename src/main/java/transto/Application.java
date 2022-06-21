@@ -1,13 +1,14 @@
-package com.github.transto;
+package transto;
 
-import com.github.transto.api.youdao.YoudaoApi;
-import com.github.transto.util.ClipboardUtils;
+import transto.api.youdao.YoudaoApi;
+import transto.util.ClipboardUtils;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
+import java.net.URL;
 
 /**
  * 应用程序
@@ -50,7 +51,8 @@ public class Application extends JFrame {
         this.setBounds(screenSize.width - DEFAULT_WIDTH, DEFAULT_HEIGHT / 2, DEFAULT_WIDTH, DEFAULT_HEIGHT);
         // 置顶
         this.setAlwaysOnTop(true);
-        this.setIconImage(new ImageIcon("src/main/resources/images/icon.jpg").getImage());
+        URL resource = getClass().getResource("/icon.jpg");
+        this.setIconImage(new ImageIcon(resource).getImage());
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
 
